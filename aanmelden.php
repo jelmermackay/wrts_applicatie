@@ -1,7 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-    // $conn = new mysqli('localhost', 'student4a8_534388', 'Q96fqy', 'student4a8_534388');
-    $conn = new mysqli('localhost', 'root', '', 'student4a8_534388');
+    $conn = new mysqli('localhost', 'root', '', 'wrts');
     
     // pakt de gegevens uit de form
     $username = htmlspecialchars($_POST['username']);
